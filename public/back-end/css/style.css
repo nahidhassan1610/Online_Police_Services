@@ -1,0 +1,294 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  font-weight: 400;
+  background: #fff;
+  transition: all 0.5s ease;
+  color: #000;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+header {
+	padding: 0 60px;
+	background: rgba(13, 152, 186, .8);
+}
+
+.navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-brand:hover {
+	color: #ffffff;
+}
+
+.navbar-nav li {
+	padding: 0 7px;
+}
+
+.navbar-nav li .nav-link {
+	color: #ffffff;
+}
+
+#hero {
+	height: 100vh;
+}
+
+.carousel-item img {
+	height: 600px;
+}
+
+.carousel-caption {
+	background: #fff;
+	padding-bottom: 0;
+}
+
+.carousel-caption p {
+	color: #000;
+	text-transform: uppercase;
+}
+#about-police {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+#news {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.news {
+	padding-bottom: 30px;
+	margin-bottom: 45px;
+	border-bottom: 1px solid #7d7d7d;
+}
+
+.news .feature-image {
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.news .feature-image img {
+	height: 400px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.news-title a {
+	color: #0d98ba;
+}
+
+.news-meta p {
+	color: #7d7d7d;
+}
+
+.read-btn {
+	background: #0070ff;
+	padding: 10px 30px;
+	border-radius: 10px;
+	display: inline-block;
+	color: #ffffff;
+}
+
+.read-btn:hover {
+	color: #ffffff;
+}
+
+.news-pagination {
+	text-align: center;
+}
+
+.news-pagination ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.news-pagination ul li a {
+	font-size: 20px;
+	border: 1px solid #0070ff;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 7px;
+	border-radius: 5px;
+}
+
+footer {
+	background: #ccc;
+}
+
+#add-vehicle {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.add-vehicle-form {
+	border: 1px solid #ccc;
+	padding: 30px 60px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.3);
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+#clearance {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #6c757d82;
+}
+
+#clearance .alert-secondary {
+	background: #f2f2f2;
+	padding: 30px;
+}
+
+.print-button {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.print-button a {
+	padding: 15px 60px;
+	background: #0070ff;
+	display: inline-block;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+#clearance-page {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #6c757d82;
+}
+
+.alert-secondary {
+	background: #f2f2f2;
+}
+
+.gd-form textarea {
+	width: 100%;
+	border: 1px solid #ced4da;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.gd-form textarea:focus {
+	box-shadow: none;
+	outline: none;
+	border: 1px solid #80bdff;
+}
+
+#gd-application-preview {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #6c757d82;
+}
+
+#gd-application-preview .alert-secondary {
+	padding: 30px;
+}
+
+#search-vehicle {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#single-news {
+	padding-top: 100px;
+}
+
+#single-news .news .feature-image {
+	height: 600px;
+}
+
+#single-news .news .feature-image img {
+	height: 600px;
+}
+
+#single-news .news {
+	border-bottom: 0px solid #ccc;
+}
+
+#single-news .news-title {
+	color: #0d98ba;
+}
+
+.login-page {
+	background: #6c757d82;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.alert {
+	margin-bottom: 0;
+}
+
+.Registration-form input {
+	margin-bottom: 20px!important;
+}
+
+.Login-form input {
+	margin-bottom: 20px!important;
+}
+
+.Login-form textarea:focus {
+	width: 60%;
+	border: 1px solid #ced4da;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.footer-copyright {
+	background: rgba(13, 152, 186, .8);
+	color: #ffffff;
+}
+
+.footer-copyright a {
+	color: #000;
+}
+
+#gd-list {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.all-gd {
+	border: 1px solid #ccc;
+}
+
+.pagination-pt {
+	text-align: center;
+	margin-top: 60px;
+}
+ 
+.pagination-pt ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.pagination-pt ul li a {
+	display: inline-block;
+	border: 1px solid rgba(13, 152, 186, .8);
+	padding: 5px 10px;
+	color: rgba(13, 152, 186, .8);
+}
+
